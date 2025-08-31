@@ -91,3 +91,35 @@ body img.thumbnail {
 .searching {
     filter: grayscale(100%);
 }
+
+.autocomplete-dropdown {
+    position: absolute;
+    background: #222;
+    border: 1px solid #444;
+    z-index: 10000;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+}
+.autocomplete-option {
+    padding: 4px 8px;
+    cursor: pointer;
+}
+.autocomplete-option:hover {
+    background: #555;
+}
+\.char-hover-box {
+    position: absolute;
+    display: none;
+    background: #222;
+    color: #eee;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 0.9em;
+    line-height: 1.4;
+    z-index: 10000;
+    max-width: 400px;
+    white-space: normal;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
